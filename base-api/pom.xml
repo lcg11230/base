@@ -11,5 +11,24 @@
 
     <artifactId>base-api</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.lcg.base</groupId>
+            <artifactId>base-code</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.thetransactioncompany</groupId>
+            <artifactId>cors-filter</artifactId>
+        </dependency>
+    </dependencies>
 </project>

@@ -11,5 +11,11 @@
         <module name="base-web" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base" target="1.8" />
+      <module name="base-api" target="1.8" />
+      <module name="base-code" target="1.8" />
+      <module name="base-web" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
