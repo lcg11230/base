@@ -19,7 +19,6 @@
     <!--多模块-->
     <modules>
         <module>base-code</module>
-        <module>base-api</module>
         <module>base-web</module>
     </modules>
     <!--用于定义pom常量-->
